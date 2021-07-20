@@ -31,7 +31,7 @@ z-index: 4;
 }
 
 body{
-    background-color: rgba(0, 0,0,0.938);
+    background-color: white;
     list-style: none;
 
 }
@@ -212,7 +212,11 @@ Css para navegacion automatica
 
 .section3{
     padding-top: 50px;
-    
+    padding-bottom: 20px;
 
 }
 
+.contenedor4 {
+    padding-top: 70px;
+    background-color: #40D3DC;
+}
