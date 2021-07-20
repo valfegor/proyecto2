@@ -1,4 +1,15 @@
+const bienvenida = document.getElementById('bienvenida');
+
+function actualizarNombre(){
+    let name = prompt("Por favor Introduzca su nombre");
+    bienvenida.textContent = "Bienvenido!: " +"" +name;
+}
+
+actualizarNombre();
+
+
 var contador = 1 ;
+
 
 //funcion de tiempo
 
