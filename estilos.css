@@ -176,44 +176,8 @@ Css para navegacion automatica
 }
 
 
-.background-left-column {
+.background1-left-column {
     background: linear-gradient(180deg,#21c8f6,#637bff);
 }
 
 
-.container {
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:30vh;
-}
-
-.card {
-    background-color: var(--textoblanco);
-    border-radius:3em;
-    box-shadow: 0 1rem 1rem rgba(0,0,0,0.2);
-    display:flex;
-    margin: 1.5rem;
-    overflow: hidden;
-    width:30rem;
-    height: 19rem;
-}
-
-.card h6 {
-    opacity:0.6;
-    letter-spacing:.1rem;
-    text-transform: uppercase;
-}
-
-.card h2 {
-    letter-spacing:.1rem;
-    margin:1rem 0 ;
-    color:var(--textonegro);
-
-
-}
-
-.left-column {
-    
-}
