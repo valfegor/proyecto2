@@ -14,7 +14,7 @@
 }
 
 .navbar{
-    background-color:transparent;
+background-color:transparent;
 position:relative;
 z-index: 4;
 }
@@ -194,6 +194,8 @@ Css para navegacion automatica
     justify-content:space-around;
     flex-wrap: wrap;
     width:100%;
+    height:400px;
+   
 }
 
 .contenedor2 {
@@ -201,5 +203,16 @@ Css para navegacion automatica
     justify-content:space-around;
     margin-top:40px;
    
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+
+.section3{
+    padding-top: 50px;
+    
+
 }
 
