@@ -39,16 +39,16 @@ body{
 }
 
 .principal{
-    width:80%;
+    width:90%;
     height:auto ; overflow:hidden;
-    border:1px solid;
+    border:0px solid;
     margin: 10px auto;
 }
 
 .publicaciones {
     width:70%;
     height:auto ; overflow:hidden;
-    border:1px solid red;
+    border:0px solid red;
     margin-top: 10px auto;
     float: left;
 }
@@ -127,13 +127,14 @@ body{
 .sidebar{
     float:right;
     width:28%;
-    border:1px solid;
+    border:0px solid;
     height:auto;overflow: hidden;
+    margin-top: 10px;
 }
 
 .buscar , .categorias , .noticias {
     border-radius: 10px;
-    width:100%;
+    width:98%;
     border:1px solid #ccc;
     height:auto ; overflow:hidden;
     margin-bottom: 20px;
@@ -175,6 +176,83 @@ body{
     color: #848484;
 }
 
-.encabezado-sidebar:hover {
+.enlace-sidebar:hover {
     background:#f2f2f2;
+}
+
+form {
+    margin-top: 10px;
+}
+
+footer{
+    background:#111;
+    height:auto;
+    width:100vw;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    color: var(--textoblanco);
+
+}
+
+.footer-content {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin:1rem 0 3rem 0 ;
+
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: var(--textoblanco);
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition:color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+.footer-bottom {
+    background:#000;
+    width:100vw;
+    padding:20px 0 ;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 20px;
+    text-transform: capitalize;
+
 }
