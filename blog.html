@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/CSS/estilosblog.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg  bg-dark">
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">StackOverflowers</a>
           <div class="bienvenido">
@@ -27,7 +27,7 @@
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Buscador de tips" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Busca tips!</button>
+              <button class="btn btn btn-outline-dark botonsito" type="submit">Busca tips!</button>
             </form>
           </div>
           <li class="nav-item">
@@ -114,37 +114,37 @@
                 <span class="favoritos">Añadir A Favoritos</span>
             </article>
             <article class="post">
-                <a href="" class="enlace-post"><h2 class="titulo">Titulo del tip</h2></a>
-                <img src="/img/logo.png" alt="" class="img-post">
+                <a href="" class="enlace-post"><h2 class="titulo">Conserva la sintaxis y estructura de tu código limpia y ordenada</h2></a>
+                <img src="./assets/img/js5.PNG" alt="" class="img-post">
                 <p>
                     <strong>Por:</strong><span class="datos-publicaciones">Anthony Duarte</span>
                     &nbsp;;&nbsp;
                     <strong>Fecha: </strong><span class="datos-publicaciones">Jueves 21 de julio</span>
                 </p>
                 <p class="parrafo-post">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempora alias adipisci, quam, dolorem rem officiis dolores hic laboriosam tempore mollitia delectus repellendus totam explicabo dicta soluta omnis corporis illum?
-                    Reprehenderit, sunt. Nesciunt, ratione beatae, eveniet ipsum harum explicabo odio blanditiis, quasi tempore quae sint consequuntur distinctio aut cumque nihil praesentium aperiam deserunt maiores vero doloribus expedita obcaecati modi corrupti!
-                    Voluptates distinctio tempora vero sapiente voluptate obcaecati facilis quia fuga, iste repellendus explicabo nesciunt accusantium culpa quasi odio qui corporis aperiam sint natus? Est similique, sint perspiciatis aliquam veniam ipsa!
-                    Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
-                    Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
+                    Esto significa que guardes por ejemplo un límite de longitud de línea (80 caracteres) y que programes funciones razonablemente pequeñas. Un fallo es pensar que en una función larga lo podemos hacer todo.
+
+                    Tener un tamaño razonable para tus funciones significa que las podrás reutilizar cuando amplies el código, tampoco seas extremista y hagas funciones de una o dos líneas esto puede llegar a ser más confuso que usar una única función.
+                    
+                    Este es un ejemplo que muestra cual es la justa medida en cuanto al tamaño de las funciones y la división de las tareas
                 </p>
                 <button type="button" class="btn btn-warning leer">Ocultar</button>
                 <span class="favoritos">Añadir A Favoritos</span>
             </article>
             <article class="post">
-                <a href="" class="enlace-post"><h2 class="titulo">Titulo del tip</h2></a>
-                <img src="/img/logo.png" alt="" class="img-post">
+                <a href="" class="enlace-post"><h2 class="titulo">javaScript es un lenguaje basado en prototipos.</h2></a>
+                <img src="./assets/img/js6.PNG" alt="" class="img-post">
                 <p>
                     <strong>Por:</strong><span class="datos-publicaciones">Anthony Duarte</span>
                     &nbsp;;&nbsp;
                     <strong>Fecha: </strong><span class="datos-publicaciones">Jueves 21 de julio</span>
                 </p>
                 <p class="parrafo-post">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempora alias adipisci, quam, dolorem rem officiis dolores hic laboriosam tempore mollitia delectus repellendus totam explicabo dicta soluta omnis corporis illum?
-                    Reprehenderit, sunt. Nesciunt, ratione beatae, eveniet ipsum harum explicabo odio blanditiis, quasi tempore quae sint consequuntur distinctio aut cumque nihil praesentium aperiam deserunt maiores vero doloribus expedita obcaecati modi corrupti!
-                    Voluptates distinctio tempora vero sapiente voluptate obcaecati facilis quia fuga, iste repellendus explicabo nesciunt accusantium culpa quasi odio qui corporis aperiam sint natus? Est similique, sint perspiciatis aliquam veniam ipsa!
-                    Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
-                    Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
+                    A diferencia de muchos otros lenguajes orientados a objetos, los objetos en javaScript no están basados en clases, están basados en prototipos. Entender la diferencia te permite aprovechar las ventajas de programar orientado a prototipos, y sobre todo, dejar de pensar en clases.
+
+                    A pesar de que en ES6 existe una palabra reservada class con la que puedes definir clases, eso no significa que JS haya cambiado, internamente, sigue funcionando igual, piensa en la palabra reservada class como un adorno de sintaxis, por dentro todo sigue igual.
+
+                    La principal diferencia entre basado en prototipos y en clases, radica en la existencia misma de las clases, en un lenguaje de prototipos las clases no existen, los objetos heredan de otros objetos.
                 </p>
                 <button type="button" class="btn btn-warning leer">Ocultar</button> &nbsp;&nbsp;&nbsp;&nbsp;
                <span class="favoritos">Añadir A Favoritos</span>
@@ -171,24 +171,33 @@
             </section>
             <section id="categorias" class="noticias">
                 <h2 class="encabezado-sidebar">Ultimas noticias</h2>
-                   <a href="" class="enlace-sidebar">
-                       <h4>Titulo de la noticia</h4>
-                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui blanditiis sunt consequatur iure harum unde dolorum veniam! Asperiores nesciunt reprehenderit sapiente iste, excepturi doloribus fugiat ducimus animi totam illo.</p>
+                   <a href="https://www.europapress.es/portaltic/software/noticia-javascript-mantiene-lenguaje-programacion-mas-popular-14-millones-desarrolladores-20210430172721.html" class="enlace-sidebar">
+                       <h4>Javascript se mantiene como el lenguaje de programación más popular, con 14 millones de desarrolladores</h4>
+                       <p>Javascript se mantiene como el lenguaje de programación más popular, con 14 millones de desarrolladores
+
+                        El lenguaje de programación Javascript es el más utilizado en la actualidad, y casi 14 millones de desarrolladores en el mundo programan con él especialmente en la web y para la nube, seguido de otros lenguajes como Python, Java y C++. Así se extrae de la vigésima edición del informe State of the Developer Nation, realizado por SlashData y para el cual se han encuestado a más de 19.000 desarrolladores de 155 países entre noviembre de 2020 y febrero de 2021.</p>
 
                    </a>
-                   <a href="" class="enlace-sidebar">
-                    <h4>Titulo de la noticia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui blanditiis sunt consequatur iure harum unde dolorum veniam! Asperiores nesciunt reprehenderit sapiente iste, excepturi doloribus fugiat ducimus animi totam illo.</p>
+                   <a href="https://jdevmanzo.medium.com/javascript-se-est%C3%A1-comiendo-el-mundo-3576e97f0dae" class="enlace-sidebar">
+                    <h4>Javascript se está comiendo el mundo</h4>
+                    <p>Si has oido las noticias ultimamente, Javascript y NodeJs se están comiendo el mundo del software.
+
+                        NodeJs es un ambiente Backend hecho con y para Javascript que corre en los motores V8 que desarrolla y mantiene Google Chrome. Podríamos pensar que es una tecnología “hipster”, pero NodeJs se está convirtiendo rápidamente en uno de los ambientes más comunes para desarrollar aplicaciones web y ya cuenta con una cantidad impresionante de Fans. Personalmente no lo he usado tan a fondo como quisiera, pero sencillamente me encanta y cada día quiero usarlo más.
+                        
+                        Si no me crees, te dejo una lista de las 4 gigantes que adoptaron esta tecnología Javascript/Nodejs que les permite poseer plataformas de tráfico pesado y alta calidad de funcionamiento.</p>
 
                 </a>
-                <a href="" class="enlace-sidebar">
-                    <h4>Titulo de la noticia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui blanditiis sunt consequatur iure harum unde dolorum veniam! Asperiores nesciunt reprehenderit sapiente iste, excepturi doloribus fugiat ducimus animi totam illo.</p>
+                <a href="https://mott.pe/noticias/lenguaje-de-programacion-de-javascript-para-desarrollo-web-front-end/" class="enlace-sidebar">
+                    <h4>Lenguaje de programación de JavaScript para desarrollo web front-end</h4>
+                    <p>El desarrollo web front-end, se refiere a la creación de sitios web y aplicaciones que utilizan varios lenguajes de programación como Javascript, CSS y HTML5. Los expertos saben que Javascript, es el responsable del contenido dinámico y la interactividad que se pueden visualizar en los sitios web modernos. Esto incluye la interfaz de usuario general, juegos, pancartas móviles y botones en los que los usuarios pueden hacer clic e interactuar. Varios servicios de desarrollo de Javascript, se especializan en este lenguaje robusto.
+
+                        Con el avance y desarrollo de la tecnología, las empresas también buscan alternativas de formas cada vez más diversas para destacarse de la competencia. Javascript, es ideal para contenido web dinámico, pero no es el único reproductor que existe. A continuación te dejaremos 5 lenguajes de programación de JavaScript para desarrollo web front-end, pero ten en cuenta que no todos los idiomas que mencionaremos reemplazarán a JavaScript en su totalidad, solo se complementan.</p>
 
                 </a>
-                <a href="" class="enlace-sidebar">
-                    <h4>Titulo de la noticia</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae qui blanditiis sunt consequatur iure harum unde dolorum veniam! Asperiores nesciunt reprehenderit sapiente iste, excepturi doloribus fugiat ducimus animi totam illo.</p>
+                <a href="https://www.tokioschool.com/noticias/java-significado-que-es-java/" class="enlace-sidebar">
+                    <h4>El significado de Java, el falso gemelo de JavaScript</h4>
+                    <p>Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems”. Así de fácil resume la propia web de Java qué es esta tecnología que tantos éxitos le ha reportado a la compañía.
+                    Nació con el objetivo de ser un lenguaje de programación de estructura sencilla que pudiera ser ejecutado en diversos sistemas operativos. En lo que respecta a su nombre, inicialmente iba a denominarse Oak pero, como esta marca ya estaba registrada, se acabó optando por Java.</p>
 
                 </a>
             </section>
@@ -198,7 +207,7 @@
       <footer>
         <div class="footer-content">
           <h3>StackOverFlowers</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio molestiae quis similique illo ex deleniti blanditiis quas voluptatibus id consectetur quod, dignissimos placeat quaerat aliquam accusamus quibusdam autem explicabo sapiente.</p>
+          <p>Somos una pagina que busca impartir el conocimiento por medio de algunos tips utiles , para que todo aquel con conocimientos basicos , pueda llevar su carrera profesional a otro nivel</p>
           <ul class="socials">
             <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
             <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
