@@ -7,15 +7,15 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="./estilosblog.css">
+    <link rel="stylesheet" href="./assets/CSS/estilosblog.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg  bg-white">
+    <nav class="navbar navbar-expand-lg  bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">StackOverflowers</a>
           <div class="bienvenido">
             <div>
-              <h6 class="bienvenida" id="bienvenida">Welcome :</h6>
+              <h6 class="bienvenida" id="bienvenida"></h6>
             </div>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,57 +38,79 @@
       <section id="principal" class="principal">
         <section id="publicaciones" class="publicaciones">
             <article class="post">
-                <a href="" class="enlace-post"><h2 class="titulo">Titulo del tip</h2></a>
-                <img src="/img/logo.png" alt="" class="img-post">
+                <a href="" class="enlace-post"><h2 class="titulo">¿Qué es JavaScript?</h2></a>
+                <img src="./assets/img/Js1.jpg" alt="" class="img-post">
                 <p>
                     <strong>Por:</strong><span class="datos-publicaciones">Anthony Duarte</span>
                     &nbsp;;&nbsp;
                     <strong>Fecha: </strong><span class="datos-publicaciones">Jueves 21 de julio</span>
                 </p>
                 <p class="parrafo-post">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempora alias adipisci, quam, dolorem rem officiis dolores hic laboriosam tempore mollitia delectus repellendus totam explicabo dicta soluta omnis corporis illum?
-                    Reprehenderit, sunt. Nesciunt, ratione beatae, eveniet ipsum harum explicabo odio blanditiis, quasi tempore quae sint consequuntur distinctio aut cumque nihil praesentium aperiam deserunt maiores vero doloribus expedita obcaecati modi corrupti!
-                    Voluptates distinctio tempora vero sapiente voluptate obcaecati facilis quia fuga, iste repellendus explicabo nesciunt accusantium culpa quasi odio qui corporis aperiam sint natus? Est similique, sint perspiciatis aliquam veniam ipsa!
-                    Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
-                    Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
+                    JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado. Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales (HTML y CSS) hemos cubierto con mucho más detalle en otras partes del Área de aprendizaje. <br>
+                    Javascript es el lenguaje más empleado dentro del desarrollo fullstack gracias al auge que han experimentado en los últimos años librerías y frameworks como NodeJs (backend) y React/Angular/Vue (frontend). Sin embargo, independientemente de cuál de ellos emplees para desarrollar, existen una serie de trucos y consejos comunes a todos a ellos que te ayudarán a mejorar tu experiencia como desarrollador Javascript. Por tanto, en este artículo he decidido recopilar aquellos que considero más útiles para el día y a día y que conviene tener presentes siempre en la cabeza de cara a escribir código limpio y con el menor número de fallos posible.
+
                 </p>
-                <a href="" class="leer-mas">Leer mas...</a> &nbsp;&nbsp;
+                <button type="button" class="btn btn-warning leer">Ocultar</button> &nbsp;&nbsp;
                 <span class="favoritos">Añadir A Favoritos</span>
             </article>
             <article class="post">
-                <a href="" class="enlace-post"><h2 class="titulo">Titulo del tip</h2></a>
-                <img src="/img/logo.png" alt="" class="img-post">
+                <a href="" class="enlace-post"><h2 class="titulo">Declaración de variables</h2></a>
+                <img src="./assets/img/js2.PNG" alt="" class="img-post">
                 <p>
                     <strong>Por:</strong><span class="datos-publicaciones">Anthony Duarte</span>
                     &nbsp;;&nbsp;
                     <strong>Fecha: </strong><span class="datos-publicaciones">Jueves 21 de julio</span>
                 </p>
                 <p class="parrafo-post">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempora alias adipisci, quam, dolorem rem officiis dolores hic laboriosam tempore mollitia delectus repellendus totam explicabo dicta soluta omnis corporis illum?
-                    Reprehenderit, sunt. Nesciunt, ratione beatae, eveniet ipsum harum explicabo odio blanditiis, quasi tempore quae sint consequuntur distinctio aut cumque nihil praesentium aperiam deserunt maiores vero doloribus expedita obcaecati modi corrupti!
-                    Voluptates distinctio tempora vero sapiente voluptate obcaecati facilis quia fuga, iste repellendus explicabo nesciunt accusantium culpa quasi odio qui corporis aperiam sint natus? Est similique, sint perspiciatis aliquam veniam ipsa!
-                    Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
-                    Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
+                    Siempre que declares una variable emplea var , let o const ya que si no lo que estarás creando será una variable de ámbito global y esto puede desembocar en fallos como la sobrescritura de variables (por ejemplo, que una librería de terceros esté empleando esa misma variable de forma global para otro propósito y con tu declaración la estés “pisando”).
+                    Además es recomendable emplear let o const en vez de var , ya que la declaración mediante let y const lo que crea es una variable con el scope limitado al bloque sintáctico donde está siendo usada.
+                    Como nota final, recuerda que const previene la reasignación de variables una vez que fueron declaradas, por lo que el siguiente código no sería válido:
                 </p>
-                <a href="" class="leer-mas">Leer mas...</a> &nbsp;&nbsp;
+                <button type="button" class="btn btn-warning leer">Ocultar</button> &nbsp;&nbsp;
                <span class="favoritos">Añadir A Favoritos</span>
             </article>
             <article class="post">
-                <a href="" class="enlace-post"><h2 class="titulo">Titulo del tip</h2></a>
-                <img src="/img/logo.png" alt="" class="img-post">
+                <a href="" class="enlace-post"><h2 class="titulo">Comparación de variables</h2></a>
+                <img src="./assets/img/js3.jpeg" alt="" class="img-post">
                 <p>
                     <strong>Por:</strong><span class="datos-publicaciones">Anthony Duarte</span>
                     &nbsp;;&nbsp;
                     <strong>Fecha: </strong><span class="datos-publicaciones">Jueves 21 de julio</span>
                 </p>
                 <p class="parrafo-post">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempora alias adipisci, quam, dolorem rem officiis dolores hic laboriosam tempore mollitia delectus repellendus totam explicabo dicta soluta omnis corporis illum?
-                    Reprehenderit, sunt. Nesciunt, ratione beatae, eveniet ipsum harum explicabo odio blanditiis, quasi tempore quae sint consequuntur distinctio aut cumque nihil praesentium aperiam deserunt maiores vero doloribus expedita obcaecati modi corrupti!
-                    Voluptates distinctio tempora vero sapiente voluptate obcaecati facilis quia fuga, iste repellendus explicabo nesciunt accusantium culpa quasi odio qui corporis aperiam sint natus? Est similique, sint perspiciatis aliquam veniam ipsa!
-                    Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
-                    Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
+                    Siempre que compares variables emplea el triple igual === en vez del doble == puesto que este ultimo implica una conversión de tipo automática lo cual puede provocar “situaciones” como las del siguiente meme:
+                    Esto se debe a que la comparación mediante triple igual === es estricta a diferencia de la que realiza el doble igual que primero trata de convertir ambos elementos al mismo tipo:
+                    [10] == 10   // is true
+                    [10] === 10  // is false
+                    '10' == 10   // is true
+                    '10' === 10  // is false
+                    [] == 0      // is true
+                    [] === 0     // is false
+                    '' == false  // is true
+                    '' === false // is false
                 </p>
-                <a href="" class="leer-mas">Leer mas...</a> &nbsp;&nbsp;
+                <button type="button" class="btn btn-warning leer">Ocultar</button> &nbsp;&nbsp;
+                <span class="favoritos">Añadir A Favoritos</span>
+            </article>
+            <article class="post">
+                <a href="" class="enlace-post"><h2 class="titulo">Comprobar si un resultado es finito</h2></a>
+                <img src="./assets/img/js4.PNG" alt="" class="img-post">
+                <p>
+                    <strong>Por:</strong><span class="datos-publicaciones">Anthony Duarte</span>
+                    &nbsp;;&nbsp;
+                    <strong>Fecha: </strong><span class="datos-publicaciones">Jueves 21 de julio</span>
+                </p>
+                <p class="parrafo-post">
+                    Este es uno de esos consejos que parecen “inútiles” hasta que de repente un día lo necesitas (especialmente en el desarrollo back). Imagina por ejemplo consultas a base de datos cuyo resultado puede ser variable en función de algún valor por lo que es necesario comprobar si dicho resultado es “finito”. Para esta comprobación Javascript nos proporciona el método isFinite lo cual nos permitirá asegurar que ese valor es válido antes de trabajar con él:
+                    isFinite(0/0);       // false
+                    isFinite('foo');     // true
+                    isFinite('10');      // true
+                    isFinite(10);        // true
+                    isFinite(undefined); // false
+                    isFinite();          // false  
+                    isFinite(null);      // true
+                </p>
+                <button type="button" class="btn btn-warning leer">Ocultar</button> 
                 <span class="favoritos">Añadir A Favoritos</span>
             </article>
             <article class="post">
@@ -106,7 +128,7 @@
                     Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
                     Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
                 </p>
-                <a href="" class="leer-mas">Leer mas...</a> &nbsp;&nbsp;
+                <button type="button" class="btn btn-warning leer">Ocultar</button>
                 <span class="favoritos">Añadir A Favoritos</span>
             </article>
             <article class="post">
@@ -124,25 +146,7 @@
                     Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
                     Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
                 </p>
-                <a href="" class="leer-mas">Leer mas...</a> &nbsp;&nbsp;
-                <span class="favoritos">Añadir A Favoritos</span>
-            </article>
-            <article class="post">
-                <a href="" class="enlace-post"><h2 class="titulo">Titulo del tip</h2></a>
-                <img src="/img/logo.png" alt="" class="img-post">
-                <p>
-                    <strong>Por:</strong><span class="datos-publicaciones">Anthony Duarte</span>
-                    &nbsp;;&nbsp;
-                    <strong>Fecha: </strong><span class="datos-publicaciones">Jueves 21 de julio</span>
-                </p>
-                <p class="parrafo-post">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempora alias adipisci, quam, dolorem rem officiis dolores hic laboriosam tempore mollitia delectus repellendus totam explicabo dicta soluta omnis corporis illum?
-                    Reprehenderit, sunt. Nesciunt, ratione beatae, eveniet ipsum harum explicabo odio blanditiis, quasi tempore quae sint consequuntur distinctio aut cumque nihil praesentium aperiam deserunt maiores vero doloribus expedita obcaecati modi corrupti!
-                    Voluptates distinctio tempora vero sapiente voluptate obcaecati facilis quia fuga, iste repellendus explicabo nesciunt accusantium culpa quasi odio qui corporis aperiam sint natus? Est similique, sint perspiciatis aliquam veniam ipsa!
-                    Dolores sint quam sapiente magnam inventore placeat, nulla sit delectus animi molestias error excepturi, ea provident voluptatibus odit ex ipsum dolorem reprehenderit repudiandae dignissimos minima tempore odio. Asperiores, laboriosam nemo.
-                    Corrupti, esse? Beatae quasi doloremque asperiores ad repellendus esse, possimus a quia sapiente. Ducimus, nisi repellendus earum magnam temporibus adipisci rem. Sunt, odit. Veniam quasi odit suscipit a animi neque?
-                </p>
-               <a href="" class="leer-mas">Leer mas...</a> &nbsp;&nbsp;
+                <button type="button" class="btn btn-warning leer">Ocultar</button> &nbsp;&nbsp;&nbsp;&nbsp;
                <span class="favoritos">Añadir A Favoritos</span>
             </article>
 
@@ -205,5 +209,6 @@
           <p>copyrigt &copy;2021 StackOverFlowers</p>
         </div>
       </footer>
+      <script src="/assets/JS/script3.js"></script>
 </body>
 </html>
